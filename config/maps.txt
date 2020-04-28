@@ -49,3 +49,9 @@ endmap
 
 map multiz_debug
 endmap
+map startstation startstation.json
+	minplayers 4 
+	maxplayers 8 
+	voteweight 0.7
+	votable
+endmap

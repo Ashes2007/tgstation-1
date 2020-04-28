@@ -1,0 +1,14 @@
+{
+    "map_name": "Start Station",
+    "map_path": "map_files/StartStation",
+	"map_file": "startstation.dmm",
+
+    "shuttles": {
+	    "cargo": "cargo_delta",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "startingwhiteship",
+		"emergency": "miniescape"
+		"mining": "miniminer"
+		"arrivals": "arrival_start"
+    }
+}
