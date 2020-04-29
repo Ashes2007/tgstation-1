@@ -1,0 +1,22 @@
+"a" = (/turf/closed/wall/mineral/titanium,/area/shuttle/mining)
+"b" = (/turf/template_noop,/area/template_noop)
+"c" = (/turf/open/floor/plasteel,/area/shuttle/mining)
+"d" = (/obj/structure/rack,/obj/item/pickaxe,/obj/item/pickaxe,/turf/open/floor/plasteel,/area/shuttle/mining)
+"e" = (/obj/structure/shuttle/engine/heater{dir = 4},/obj/structure/window/reinforced{dir = 8; layer = 2.9},/turf/open/floor/plasteel,/area/shuttle/mining)
+"f" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/open/space/basic,/area/shuttle/mining)
+"g" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/shuttle/mining)
+"h" = (/obj/machinery/computer/shuttle/mining/common{dir = 4},/turf/open/floor/plasteel,/area/shuttle/mining)
+"i" = (/obj/structure/chair/comfy/shuttle{dir = 8},/turf/open/floor/plasteel,/area/shuttle/mining)
+"j" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/open/floor/plasteel,/area/shuttle/mining)
+"k" = (/obj/structure/window/reinforced{dir = 4; layer = 2.9},/obj/item/storage/bag/ore,/obj/item/storage/bag/ore,/turf/open/floor/plasteel,/area/shuttle/mining)
+"l" = (/obj/structure/ore_box,/turf/open/floor/plasteel,/area/shuttle/mining)
+"m" = (/obj/structure/window/reinforced{dir = 1; layer = 2.9},/obj/structure/window/reinforced,/turf/open/floor/plasteel,/area/shuttle/mining)
+"n" = (/obj/structure/window/reinforced{dir = 1; layer = 2.9},/obj/structure/window/reinforced,/obj/machinery/door/airlock/external,/obj/docking_port/mobile{dir = 8; dwidth = 2; height = 7; id = "mining"; name = "lavaland shuttle"; port_direction = 0; width = 5},/turf/open/floor/plating,/area/shuttle/mining)
+
+(1,1,1) = {"
+baaaaab
+aajcdef
+ghiccmn
+aajklef
+baaaaab
+"}

@@ -13,12 +13,7 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
-#include "_maps\map_files\StartStation\startstation.dmm"
-#include "_maps\shuttles\arrival_start.dmm"
-#include "_maps\shuttles\cargo_delta.dmm"
-#include "_maps\shuttles\miniescape.dmm"
-#include "_maps\shuttles\miniminer.dmm"
-#include "_maps\shuttles\startingwhiteship.dmm"
+#include "_maps\_basemap.dm"
 #include "code\_compile_options.dm"
 #include "code\world.dm"
 #include "code\__DEFINES\_globals.dm"

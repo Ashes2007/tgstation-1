@@ -1,0 +1,22 @@
+"a" = (/obj/docking_port/mobile/arrivals{height = 11; id = "arrival"; name = "start arrivals"; width = 6},/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
+"b" = (/turf/template_noop,/area/template_noop)
+"c" = (/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
+"d" = (/obj/structure/sign/poster/random,/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
+"e" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/shuttle/arrival)
+"f" = (/obj/machinery/door/airlock/external,/turf/open/floor/plating{icon_state = "panelscorched"},/area/shuttle/arrival)
+"g" = (/obj/structure/closet/emcloset,/turf/open/floor/plasteel/white,/area/shuttle/arrival)
+"h" = (/turf/open/floor/plasteel/white,/area/shuttle/arrival)
+"i" = (/obj/machinery/power/apc/auto_name/north,/turf/open/floor/plasteel/white,/area/shuttle/arrival)
+"j" = (/obj/structure/shuttle/engine/heater{dir = 4},/turf/open/floor/plasteel/white,/area/shuttle/arrival)
+"k" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/closed/wall/mineral/titanium,/area/shuttle/arrival)
+"l" = (/obj/structure/chair{dir = 4},/obj/effect/landmark/latejoin,/turf/open/floor/plasteel/white,/area/shuttle/arrival)
+"m" = (/obj/structure/chair{dir = 8; name = "Defense"},/obj/effect/landmark/latejoin,/turf/open/floor/plasteel/white,/area/shuttle/arrival)
+
+(1,1,1) = {"
+bbccdeeeccfcc
+cccghhhhhihjk
+clhhhmhmhmhjk
+clhhhmhmhmhja
+cccghhhhhhhjk
+bbccceeedcccc
+"}

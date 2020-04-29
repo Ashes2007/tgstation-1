@@ -96,7 +96,7 @@
 "bR" = (/obj/structure/table,/obj/structure/closet/emcloset,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "bS" = (/obj/machinery/door/airlock/external,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "bT" = (/obj/structure/chair{dir = 4},/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
-"bU" = (/obj/machinery/button/door{id = "northwhite"; name = "Loading Hatch"; pixel_y = 26},/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
+"bU" = (/obj/machinery/button/door{id = "northwhite"; name = "Loading Hatch"; pixel_y = 26},/obj/effect/landmark/start/cargo_technician,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "bV" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{icon_state = "pipe11-3"; dir = 4},/obj/machinery/atmospherics/pipe/simple/supply{icon_state = "pipe11-2"; dir = 8},/obj/structure/cable,/obj/machinery/door/airlock/engineering,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "bW" = (/obj/machinery/door/airlock/hatch{name = "Ship Maintenance"},/turf/open/floor/plating,/area/shuttle/abandoned/cargo)
 "bX" = (/obj/structure/table,/turf/open/floor/carpet/royalblue,/area/shuttle/abandoned/bridge)
@@ -106,7 +106,7 @@
 "cb" = (/obj/structure/table,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "cc" = (/obj/structure/closet/crate{icon_state = "crateopen"},/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "cd" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3,/obj/machinery/atmospherics/pipe/simple/supply,/obj/structure/cable,/obj/machinery/door/airlock/freezer{name = "Medical Bay"},/turf/open/floor/plasteel/white,/area/shuttle/abandoned/medbay)
-"ce" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{icon_state = "pipe11-3"; dir = 5},/obj/machinery/atmospherics/pipe/simple/supply{icon_state = "pipe11-2"; dir = 6},/obj/structure/chair/comfy/shuttle{dir = 8},/turf/open/floor/carpet,/area/shuttle/abandoned/bridge)
+"ce" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{icon_state = "pipe11-3"; dir = 5},/obj/machinery/atmospherics/pipe/simple/supply{icon_state = "pipe11-2"; dir = 6},/obj/structure/chair/comfy/shuttle{dir = 8},/obj/effect/landmark/start/captain,/turf/open/floor/carpet,/area/shuttle/abandoned/bridge)
 "cf" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{icon_state = "pipe11-3"; dir = 4},/obj/machinery/atmospherics/pipe/simple/supply{icon_state = "pipe11-2"; dir = 8},/obj/structure/cable,/obj/machinery/door/airlock/command,/turf/open/floor/carpet/royalblue,/area/shuttle/abandoned/bridge)
 "cg" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer3{icon_state = "pipe11-3"; dir = 4},/obj/machinery/atmospherics/pipe/simple/supply{icon_state = "pipe11-2"; dir = 4},/obj/structure/cable,/obj/machinery/door/airlock/public,/turf/open/floor/plasteel,/area/shuttle/abandoned/crew)
 "ch" = (/obj/structure/table,/obj/item/stack/cable_coil{pixel_x = 8; pixel_y = 5},/obj/item/stack/cable_coil,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
@@ -120,9 +120,11 @@
 "cp" = (/obj/structure/tank_dispenser/oxygen,/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "cq" = (/obj/machinery/button/door{id = "southwhite"; name = "Loading Hatch"; pixel_y = -6},/turf/open/floor/plasteel,/area/shuttle/abandoned/cargo)
 "cr" = (/obj/machinery/door/poddoor{id = "southwhite"},/turf/open/floor/plating,/area/shuttle/abandoned/cargo)
+"cs" = (/obj/effect/landmark/start/atmospheric_technician,/turf/open/floor/noslip,/area/shuttle/abandoned/engine)
+"Zx" = (/obj/machinery/door/airlock/external,/obj/docking_port/mobile{dheight = 17; dir = 2; dwidth = 17; height = 17; id = "whiteship"; width = 29},/turf/closed/wall/mineral/titanium,/area/shuttle/abandoned/cargo)
 
 (1,1,1) = {"
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabafabaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabZxabaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaacacacacacabababababajababababbdbdbdababaaaaaa
 aaaaaaaaacacacagahaiacbibpbIbRabbSabakabbTadadadbUabababab
 alalalalacamanaoapaqacadarasasasasasasbVasatauavavbWaeawax
@@ -135,7 +137,7 @@ aybmbnazbobobociboboboadbqaEaUbraUaUaUaEcbadadbYbYabaeawax
 ayazaGazbobsbtbubvcjboadbqaEbxaUaUaUaUaEckadadadadabaeawax
 aybXclbXbobybzbAbwbBboadbqaEbxbCbDbEbEaEcbcbadadadabaeawax
 aybXbXbXbobFbGbHbwbwboadbqaEaEaEaEaEaEaEadcmadadccabaeawax
-alalalalbobJbKbHbwbwboadbLbMbMbMbMbMbMcnbMbNbOadadbWaeawax
+alalalalbobJbKbHcsbwboadbLbMbMbMbMbMbMcnbMbNbOadadbWaeawax
 aaaaaaaabobobobPbHbQbococococpabbSabakabbTadadadcqabababab
 aaaaaaaaaaaaboboboboboabababababajababababcrcrcrababaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabafabaaaaaaaaaaaaaaaaaaaaaa

@@ -168,11 +168,6 @@
 
 // Shuttles start here:
 
-/datum/map_template/shuttle/emergency/backup
-	suffix = "backup"
-	name = "Backup Shuttle"
-	can_be_bought = FALSE
-
 /datum/map_template/shuttle/emergency/construction
 	suffix = "construction"
 	name = "Build your own shuttle kit"
@@ -192,6 +187,12 @@
 	name = "Asteroid Station Emergency Shuttle"
 	description = "A respectable mid-sized shuttle that first saw service shuttling Nanotrasen crew to and from their asteroid belt embedded facilities."
 	credit_cost = 3000
+
+/datum/map_template/shuttle/emergency/start
+	suffix = "start"
+	name = "Start Station Accident Aversion Device"
+	description = "The Start Station Accident Aversion Device, fittingly reffered to as SSAAD, which is exactly what you will feel while riding this shuttle."
+	can_be_bought = FALSE
 
 /datum/map_template/shuttle/emergency/bar
 	suffix = "bar"
@@ -424,6 +425,10 @@
 	suffix = "box"
 	name = "Hospital Ship"
 
+/datum/map_template/shuttle/whiteship/start
+	suffix = "start"
+	name = "Start Station Asset Recovery Device"
+
 /datum/map_template/shuttle/whiteship/meta
 	suffix = "meta"
 	name = "Salvage Ship"
@@ -497,6 +502,10 @@
 	suffix = "box"
 	name = "arrival shuttle (Box)"
 
+/datum/map_template/shuttle/arrival/box
+	suffix = "box"
+	name = "arrival shuttle (Box)"
+
 /datum/map_template/shuttle/cargo/box
 	suffix = "box"
 	name = "cargo ferry (Box)"
@@ -505,9 +514,7 @@
 	suffix = "box"
 	name = "mining shuttle (Box)"
 
-/datum/map_template/shuttle/labour/box
-	suffix = "box"
-	name = "labour shuttle (Box)"
+
 
 /datum/map_template/shuttle/arrival/donut
 	suffix = "donut"
@@ -525,6 +532,10 @@
 	suffix = "delta"
 	name = "cargo ferry (Delta)"
 
+/datum/map_template/shuttle/cargo/start
+	suffix = "start"
+	name = "cargo ferry (Start)"
+
 /datum/map_template/shuttle/mining/delta
 	suffix = "delta"
 	name = "mining shuttle (Delta)"
@@ -532,6 +543,10 @@
 /datum/map_template/shuttle/mining/kilo
 	suffix = "kilo"
 	name = "mining shuttle (Kilo)"
+
+/datum/map_template/shuttle/mining/start
+	suffix = "start"
+	name = "Start Station Resource Acquisition Device"
 
 /datum/map_template/shuttle/mining/large
 	suffix = "large"
@@ -560,6 +575,10 @@
 /datum/map_template/shuttle/arrival/kilo
 	suffix = "kilo"
 	name = "arrival shuttle (Kilo)"
+
+/datum/map_template/shuttle/arrival/start
+	suffix = "start"
+	name = "arrival shuttle (Mini)"
 
 /datum/map_template/shuttle/arrival/pubby
 	suffix = "pubby"

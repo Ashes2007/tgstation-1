@@ -1,0 +1,21 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/turf/closed/wall/mineral/titanium,/area/shuttle/escape)
+"c" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/open/floor/plasteel,/area/shuttle/escape)
+"d" = (/obj/structure/table,/obj/machinery/power/apc/auto_name/north{cell_type = 10000},/turf/open/floor/plasteel,/area/shuttle/escape)
+"e" = (/obj/structure/chair/comfy/shuttle{dir = 8},/turf/open/floor/plasteel,/area/shuttle/escape)
+"f" = (/obj/structure/shuttle/engine/heater{dir = 4},/obj/structure/window/reinforced{dir = 8; layer = 2.9},/turf/open/floor/plasteel,/area/shuttle/escape)
+"g" = (/obj/structure/shuttle/engine/propulsion{dir = 4},/turf/closed/wall/mineral/titanium,/area/shuttle/escape)
+"h" = (/obj/effect/spawner/structure/window/shuttle,/turf/open/floor/plating,/area/shuttle/escape)
+"i" = (/obj/machinery/computer/emergency_shuttle{icon_state = "computer"; dir = 4},/turf/open/floor/plasteel,/area/shuttle/escape)
+"j" = (/turf/open/floor/plasteel,/area/shuttle/escape)
+"k" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/window/reinforced,/turf/open/floor/plasteel,/area/shuttle/escape)
+"l" = (/obj/machinery/door/airlock/shuttle,/obj/docking_port/mobile/emergency{dir = 8; height = 7; name = "miniescape"; width = 5},/turf/open/floor/plasteel,/area/shuttle/escape)
+"m" = (/obj/structure/table,/turf/open/floor/plasteel,/area/shuttle/escape)
+
+(1,1,1) = {"
+abbbbbb
+bbcdefg
+hijjjkl
+bbcmefg
+abbbbbb
+"}
