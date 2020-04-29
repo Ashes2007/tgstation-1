@@ -9,5 +9,5 @@
 		"emergency": "emergency_start",
 		"mining": "mining_start",
 		"arrivals": "arrival_start"
-	            }
+	}
 }
