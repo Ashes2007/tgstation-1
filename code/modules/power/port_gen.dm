@@ -292,3 +292,14 @@
 
 /obj/machinery/power/port_gen/pacman/mrs/overheat()
 	explosion(src.loc, 4, 4, 4, -1)
+
+/obj/machinery/power/port_gen/pacman/meme
+	name = "\improper PACMEME Portable HONK"
+	base_icon = "portgen3"
+	icon_state = "portgen3_0"
+	circuit = /obj/item/circuitboard/machine/pacman/meme
+	sheet_path = /obj/item/stack/sheet/mineral/bananium
+	power_gen = 100000
+	time_per_sheet = 400F
+
+

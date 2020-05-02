@@ -8,6 +8,17 @@
 		/obj/item/stock_parts/capacitor/quadratic = 5,
 		/obj/item/stack/cable_coil = 2)
 
+/obj/item/circuitboard/machine/pacman/meme
+	name = "PacMeme HONKERS (Machine Board)"
+	icon_state = "meme"
+	req_components = list(
+		/obj/item/stack/cable_coil = 20,
+		/obj/item/bikehorn = 1,
+		/obj/item/stock_parts/matter_bin = 1,
+		/obj/item/stock_parts/micro_laser = 3,
+		/obj/item/stock_parts/capacitor = 5
+		)
+
 /obj/item/circuitboard/machine/bsa/front
 	name = "Bluespace Artillery Bore (Machine Board)"
 	icon_state = "command"
