@@ -300,6 +300,6 @@
 	circuit = /obj/item/circuitboard/machine/pacman/meme
 	sheet_path = /obj/item/stack/sheet/mineral/bananium
 	power_gen = 100000
-	time_per_sheet = 400F
+	time_per_sheet = 400
 
 

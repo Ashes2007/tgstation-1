@@ -11,6 +11,7 @@
 /obj/item/circuitboard/machine/pacman/meme
 	name = "PacMeme HONKERS (Machine Board)"
 	icon_state = "meme"
+	build_path = /obj/machinery/power/port_gen/pacman/meme
 	req_components = list(
 		/obj/item/stack/cable_coil = 20,
 		/obj/item/bikehorn = 1,
