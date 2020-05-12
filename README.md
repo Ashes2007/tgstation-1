@@ -1,3 +1,5 @@
+NOTE: THIS FORK HAS STOPPED RECIEVING UPDATES DUE TO IDIOCRACY, YOU MAY DOWNLOAD THE LATEST UNSTABLE BUT DONT EXPECT ANY NEW MODELWORK FROM ME. I AM REMOVING CUSTOM GUNS, SPRITES ETC. FROM THIS GIT, DO NOT EXPECT ANY NEW CODING FROM ME EITHER.
+
 ## /tg/station codebase
 
 [![Build Status](https://travis-ci.org/tgstation/tgstation.png)](https://travis-ci.org/tgstation/tgstation) [![Krihelimeter](https://www.krihelinator.xyz/badge/tgstation/tgstation)](https://www.krihelinator.xyz)
